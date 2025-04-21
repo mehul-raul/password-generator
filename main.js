@@ -58,8 +58,8 @@ function randomint (min,max){
     return Math.floor(Math.random()*(max-min)+min)
 }
 
-function indicatorcolor(color){
-   strengthcolor.style.backgroundcolor=(color);
+function indicatorcol(color){
+   strengthcolor.style.backgroundColor=color;
    strengthcolor.style.boxShadow = `0px 0px 12px 1px ${color}`;
 
 }
@@ -188,6 +188,6 @@ generatebutt.addEventListener("click", () => {
     password = passwordArray.join('');
 
     passdisp.value = password;
-    
+    stren();
 
 })
